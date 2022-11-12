@@ -1,5 +1,5 @@
 const Hero = () => (
-  <div className='snap-start'>
+  <div className='relative snap-start'>
     <div className='flex items-end justify-center h-screen bg-center bg-no-repeat bg-cover bg-hero-img'>
       <div className='flex items-end justify-center w-screen h-screen bg-center animate-bg-fade-out-1.5'>
         <div className='text-lg text-white align-bottom animate-fade-in-2'>
