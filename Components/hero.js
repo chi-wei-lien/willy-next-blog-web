@@ -8,7 +8,7 @@ const Hero = () => (
           {"C:\\Users\\Willy>"} cat intro.md <br />
           Hi, I'm Willy.
           </div>
-          <div className='mb-2 font-bold text-center animate-bounce'>˯</div>
+          <div className='mb-2 text-4xl font-bold text-center animate-bounce'>˯</div>
         </div>
       </div>
     </div>

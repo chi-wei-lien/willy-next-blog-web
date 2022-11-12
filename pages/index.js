@@ -3,9 +3,10 @@ import Image from 'next/image'
 import Hero from '../Components/hero'
 import Intro from '../Components/intro'
 import Computer from '../Components/computer'
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData } from '../lib/posts'
 import About from '../Components/about'
-
+import Blog from '../Components/blog'
+import Footer from '../Components/footer'
 
 export default function Home({allPostsData}) {
   return (
@@ -14,6 +15,8 @@ export default function Home({allPostsData}) {
         <Hero />
         <About />
         <Computer />
+        <Blog />
+        <Footer />
         {/* <Intro data={allPostsData}/> */}
       </div>
     </div>

@@ -15,7 +15,8 @@ module.exports = {
       colors: {
         'shadow': 'rgba(25, 25, 25, 0.67)',
         'dark': 'rgba(34, 34, 46)',
-        'computer-bg': '#44445e'
+        'computer-bg': '#44445e',
+        'section-bg': '#292930'
       },
       backgroundImage: {
         'hero-img': 'radial-gradient(circle, rgba(247,246,157,0.006039915966386533) 22%, rgba(18,18,18,0.6474964985994398) 60%), url("/images/cover.png")',
