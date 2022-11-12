@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Computer = () => {
   return (
@@ -6,35 +7,41 @@ const Computer = () => {
       <div className='relative flex items-center justify-center w-screen h-screen bg-computer-bg'>
         <div className='absolute z-20 w-screen h-screen bg-computer-img'></div>
         <div className='relative'>
-          <div className='absolute z-10 flex items-center justify-center w-full top-10'>
+          <div className='absolute z-30 flex items-center justify-center w-full top-10'>
             <div className='flex justify-center gap-4 item-center'>
-              <div className='text-center'>
-                <Image
-                  src="/images/file.png"
-                  alt="file icon"
-                  width={100}
-                  height={100}
-                ></Image>
-                <p className='text-center text-white'>Portfolio.pdf</p>
-              </div>
-              <div>
-                <Image
-                  src="/images/file.png"
-                  alt="file icon"
-                  width={100}
-                  height={100}
-                ></Image>
-                <p className='text-center text-white'>Blogs.pdf</p>
-              </div>
-              <div>
-                <Image
-                  src="/images/file.png"
-                  alt="file icon"
-                  width={100}
-                  height={100}
-                ></Image>
-                <p className='text-center text-white'>YouTube.pdf</p>
-              </div>
+              <Link className='text-center' href="">
+                <a>
+                  <Image
+                    src="/images/file.png"
+                    alt="file icon"
+                    width={100}
+                    height={100}
+                  ></Image>
+                  <p className='text-center text-white'>Portfolio.pdf</p>
+                </a>
+              </Link>
+              <Link className='text-center' href="">
+                <a>
+                  <Image
+                    src="/images/file.png"
+                    alt="file icon"
+                    width={100}
+                    height={100}
+                  ></Image>
+                  <p className='text-center text-white'>Blogs.pdf</p>
+                </a>
+              </Link>
+              <Link className='text-center' href="https://www.youtube.com/@loopholewilson">
+                <a>
+                  <Image
+                    src="/images/file.png"
+                    alt="file icon"
+                    width={100}
+                    height={100}
+                  ></Image>
+                  <p className='text-center text-white'>YouTube.pdf</p>
+                </a>
+              </Link>
             </div>
           </div>
           <Image
