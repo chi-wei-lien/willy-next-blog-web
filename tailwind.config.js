@@ -17,12 +17,14 @@ module.exports = {
         'dark': 'rgba(34, 34, 46)'
       },
       backgroundImage: {
-        'hero-img': 'radial-gradient(circle, rgba(247,246,157,0.006039915966386533) 22%, rgba(18,18,18,0.6474964985994398) 60%), url("/images/cover.png")'
+        'hero-img': 'radial-gradient(circle, rgba(247,246,157,0.006039915966386533) 22%, rgba(18,18,18,0.6474964985994398) 60%), url("/images/cover.png")',
+        'computer-img': 'radial-gradient(circle, rgba(247,246,157,0.006039915966386533) 22%, rgba(18,18,18,0.6474964985994398) 60%), url("/images/old_computer.png")'
       },
       fontFamily: {
         'vt323': ['VT323', 'monospace'],
         'ibm-sans': ['IBM Plex Sans', 'sans-serif'],
         'ibm-mono': ['IBM Plex Sans', 'monospace'],
+        'roboto-mono': ['Roboto Mono', 'monospace']
       },
       animation: {
         'bg-fade-out-1.5': 'bgFadeOut 1.5s ease-in-out',
