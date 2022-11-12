@@ -4,6 +4,7 @@ import Hero from '../Components/hero'
 import Intro from '../Components/intro'
 import Computer from '../Components/computer'
 import { getSortedPostsData } from '../lib/posts';
+import About from '../Components/about'
 
 
 export default function Home({allPostsData}) {
@@ -11,6 +12,7 @@ export default function Home({allPostsData}) {
     <div className='font-roboto-mono'>
       <div className='h-screen overflow-scroll no-scrollbar animate-fade snap-y snap-mandatory'>
         <Hero />
+        <About />
         <Computer />
         {/* <Intro data={allPostsData}/> */}
       </div>

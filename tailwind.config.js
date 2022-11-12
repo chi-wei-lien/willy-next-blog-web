@@ -42,30 +42,7 @@ module.exports = {
         fadeIn: {
           '0%': { opacity: '0'},
           '100%': { opacity: '1'},
-        },
-
-        /* Typing effect learned from https://vanntile.com/blog/composited-typing-animation#the-starting-point */
-        type: {
-          '0%': { width: '0ch' },
-          '7.5%': { width: '1ch' },
-          '15%': { width: '2ch' },
-          '22.5%': { width: '3ch' },
-          '30%': { width: '4ch' },
-          '37.5%': { width: '5ch' },
-          '45%': { width: '6ch' },
-          '52.5%': { width: '7ch' },
-          '60%': { width: '8ch' },
-          '67.5%': { width: '9ch' },
-          '75%': { width: '10ch' },
-          '82.5%': { width: '11ch' },
-          '90%': { width: '12ch' },
-          '100%': { width: '13ch' },
-        },
-        cursor: {
-          '0%, 50%': { opacity: 0 },
-          '51%, 100%': { opacity: 1 },
         }
-
       }),
     },
   },

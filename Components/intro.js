@@ -10,24 +10,6 @@ export default function Intro ({data}) {
             <img className='mt-10 rounded-full w-80' src='/images/me.jpg'></img>
           </div>
           <div className='col-start-4'></div>
-          {/* <div className='col-start-2 py-2 rounded-lg px-7 bg-slate-700'>
-            <div className='text-2xl text-slate-400'>
-              journal
-            </div>
-            <div className='text-2xl text-left text-slate-100'>
-              <ul className='list-disc'>
-                <li>
-                  3/15 — First Workshop I Ever Run In University
-                </li>
-                <li className='list-disc'>
-                  Sneak Into and Remote Control A Computer (Reverse Shell Script) - Line-by-line Explanation
-                </li>
-                <li className='list-disc'>
-                  Intro To Git
-                </li>
-              </ul>
-            </div>
-          </div> */}
           <div className='col-span-2 col-start-2 py-2 rounded-lg px-7 bg-slate-700'>
             <div className='text-2xl text-slate-400'>
               post
