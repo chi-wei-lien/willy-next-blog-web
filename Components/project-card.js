@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   const [open, setOPen] = useState(false);
 
   const toggle = () => {
     setOPen(!open);
   }
+
+  console.log(props.data.img)
 
   return (
     <div>
@@ -25,14 +27,15 @@ const ProjectCard = () => {
             </div>
           </div>
           <div className="col-span-4">
-            <p>Chi-Wei Lien and Sudip Vhaduri, "Challenges and Opportunities of Biometric User Authentication in the Age of IoT: A Survey," <span className="underline decoration-2 decoration-pink-500">ACM Computing Surveys, 2022</span> (Under Review)</p>
-            <div className="flex justify-end">
-              <button onClick={toggle} className="text-slate-500">Read More {">"}</button>
+            <h2 className="text-xl font-bold">{props.data.title}</h2>
+            {props.data.descr}
+            <div className="flex justify-end pt-3">
+              <button onClick={toggle} className="underline text-slate-500 decoration-sky-500 decoration-2">Read More</button>
             </div>
           </div>
           {open && 
           <div className="col-span-5">
-            hi
+            {props.data.content}
           </div>
           }
         </div>
