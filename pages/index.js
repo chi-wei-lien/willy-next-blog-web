@@ -11,7 +11,7 @@ import Footer from '../Components/footer'
 export default function Home({allPostsData}) {
   return (
     <div className='font-roboto-mono'>
-      <div className='h-screen overflow-scroll no-scrollbar animate-fade snap-y snap-mandatory'>
+      <div className='h-screen overflow-scroll no-scrollbar animate-fade'>
         <Hero />
         <About />
         <Computer />
