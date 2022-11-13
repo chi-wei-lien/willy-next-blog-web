@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Hero from '../components/hero'
-import Computer from '../components/computer'
+import Hero from '../Components/hero'
+import Computer from '../Components/computer'
 import { getSortedPostsData } from '../lib/posts'
-import About from '../components/about'
-import Footer from '../components/footer'
-import Portfolio from '../components/portfolio'
+import About from '../Components/about'
+import Footer from '../Components/footer'
+import Portfolio from '../Components/portfolio'
 
 export default function Home({allPostsData}) {
   return (
