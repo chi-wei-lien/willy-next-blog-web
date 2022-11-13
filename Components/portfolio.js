@@ -52,7 +52,7 @@ const heartAuth = new PortfolioCardData(
 
 const Portfolio = () => {
   return (
-    <div className='snap-start bg-slate-100'>
+    <div className='snap-start bg-slate-100' id="portfolio">
       <div className='w-screen min-h-screen'>
         <h1 className='py-10 text-5xl text-center underline decoration-indigo-500'>Portfolio</h1>
         <p className="text-center text-slate-700">

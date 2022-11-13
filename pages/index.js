@@ -11,7 +11,7 @@ import Portfolio from '../Components/portfolio'
 
 export default function Home({allPostsData}) {
   return (
-    <div className='font-roboto-mono'>
+    <div className='font-roboto-mono scroll-smooth'>
       <div className='h-screen overflow-scroll no-scrollbar animate-fade'>
         <Hero />
         <About />
