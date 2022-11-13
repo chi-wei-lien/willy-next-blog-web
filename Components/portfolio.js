@@ -13,7 +13,7 @@ class PortfolioCardData {
 const surveyPaper = new PortfolioCardData(
   "/images/portfolio/paper.png",
   "Biometric Survey Paper",
-  <p>Chi-Wei Lien and Sudip Vhaduri, "Challenges and Opportunities of Biometric User Authentication in the Age of IoT: A Survey," <span className="underline decoration-2 decoration-pink-500">ACM Computing Surveys, 2022</span> (Under Review)</p>,
+  <p>Chi-Wei Lien and Sudip Vhaduri, {"\""}Challenges and Opportunities of Biometric User Authentication in the Age of IoT: A Survey,{"\""} <span className="underline decoration-2 decoration-pink-500">ACM Computing Surveys, 2022</span> (Under Review)</p>,
   <ul className="list-disc">
     <li>Wrote a 35 pages survey paper to evaluate the limitations and applications of new opportunistic biometrics and their combinations with existing biometrics</li>
   </ul>
@@ -23,7 +23,7 @@ const youtube = new PortfolioCardData(
   "/images/portfolio/youtube.png",
   "Educational Youtube Creator",
   <p>Created a YouTube Channel to teach coding and cybersecurity</p>,
-  <ul class="list-disc">
+  <ul className="list-disc">
     <li>
       <span className="underline decoration-2 decoration-pink-500">27 videos</span> are currently available; accumulated over 14,000 views
     </li>
@@ -40,7 +40,7 @@ const heartAuth = new PortfolioCardData(
   "/images/portfolio/watch.png",
   "Heart Biometric User Authenticating System",
   <p>Collaborating with Prof. Vhaduri to develop a <span className="underline decoration-pink-500 decoration-2">heart biometric model</span> for user authentication</p>,
-  <ul class="list-disc">
+  <ul className="list-disc">
     <li>
       Designing a machine learning model that identifies valid users{"'"} heart rate data collected with Fitbit
     </li>
