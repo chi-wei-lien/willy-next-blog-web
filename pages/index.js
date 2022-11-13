@@ -17,7 +17,7 @@ export default function Home({allPostsData}) {
         <About />
         <Computer />
         <Portfolio />
-        <Blogs />
+        {/* <Blogs /> */}
         <Footer />
         {/* <Intro data={allPostsData}/> */}
       </div>

@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
           <div className="flex justify-end col-span-1">
             <div className="w-32 min-h-32">
               <Image
-                src="/images/portfolio/paper.png"
+                src={props.data.img}
                 alt="file icon"
                 width="100%" height="100%"
                 layout="responsive"
