@@ -14,7 +14,7 @@ const surveyPaper = new PortfolioCardData(
   "/images/portfolio/paper.png",
   "Biometric Survey Paper",
   <p>Chi-Wei Lien and Sudip Vhaduri, "Challenges and Opportunities of Biometric User Authentication in the Age of IoT: A Survey," <span className="underline decoration-2 decoration-pink-500">ACM Computing Surveys, 2022</span> (Under Review)</p>,
-  <ul class="list-disc">
+  <ul className="list-disc">
     <li>Wrote a 35 pages survey paper to evaluate the limitations and applications of new opportunistic biometrics and their combinations with existing biometrics</li>
   </ul>
 )
@@ -42,7 +42,7 @@ const heartAuth = new PortfolioCardData(
   <p>Collaborating with Prof. Vhaduri to develop a <span className="underline decoration-pink-500 decoration-2">heart biometric model</span> for user authentication</p>,
   <ul class="list-disc">
     <li>
-      Designing a machine learning model that identifies valid users' heart rate data collected with Fitbit
+      Designing a machine learning model that identifies valid users{"'"} heart rate data collected with Fitbit
     </li>
     <li>
       Skills: Python, Pandas (library), <span className="underline decoration-sky-500 decoration-2">Scikit-learn (library)</span>, Jupyter Notebook
@@ -52,9 +52,9 @@ const heartAuth = new PortfolioCardData(
 
 const Portfolio = () => {
   return (
-    <div className='snap-start bg-slate-100' id="portfolio">
-      <div className='w-screen min-h-screen'>
-        <h1 className='py-10 text-5xl text-center underline decoration-indigo-500'>Portfolio</h1>
+    <div className="snap-start bg-slate-100" id="portfolio">
+      <div className="w-screen min-h-screen">
+        <h1 className="py-10 text-5xl text-center underline decoration-indigo-500">Portfolio</h1>
         <p className="text-center text-slate-700">
           If you are a recruiter, please download the <br /> formal resume from here:{" "}
           <a

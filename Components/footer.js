@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <div className=''>
-      <div className='w-screen h-96 bg-section-bg'>
-        <h1 className='py-10 text-5xl text-center text-white underline decoration-indigo-500'>Thanks for coming by!</h1>
-        <div className='flex items-center justify-center'>
-          <div className='text-white'>
+    <div className="">
+      <div className="w-screen h-96 bg-section-bg">
+        <h1 className="py-10 text-5xl text-center text-white underline decoration-indigo-500">Thanks for coming by!</h1>
+        <div className="flex items-center justify-center">
+          <div className="text-white">
             Have a nice day!
           </div>
         </div>

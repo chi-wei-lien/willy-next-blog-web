@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../Components/hero'
-import Intro from '../Components/intro'
 import Computer from '../Components/computer'
 import { getSortedPostsData } from '../lib/posts'
 import About from '../Components/about'
-import Blogs from '../Components/blogs'
 import Footer from '../Components/footer'
 import Portfolio from '../Components/portfolio'
 

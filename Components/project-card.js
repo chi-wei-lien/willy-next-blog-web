@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
   return (
     <div>
       <div className="flex justify-center pt-10">
-        <div className='grid w-3/5 grid-cols-5 gap-4 py-10 bg-white laptop:px-40 phone:px-0'>
+        <div className="grid w-3/5 grid-cols-5 gap-4 py-10 bg-white laptop:px-40 phone:px-0">
           <div className="flex justify-end col-span-1">
             <div className="w-32 min-h-32">
               <Image
@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
                 alt="file icon"
                 width="100%" height="100%"
                 layout="responsive"
-                objectFit='contain'
+                objectFit="contain"
                 className=""
               ></Image>
             </div>
