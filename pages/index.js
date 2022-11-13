@@ -5,8 +5,9 @@ import Intro from '../Components/intro'
 import Computer from '../Components/computer'
 import { getSortedPostsData } from '../lib/posts'
 import About from '../Components/about'
-import Blog from '../Components/blog'
+import Blogs from '../Components/blogs'
 import Footer from '../Components/footer'
+import Portfolio from '../Components/portfolio'
 
 export default function Home({allPostsData}) {
   return (
@@ -15,7 +16,8 @@ export default function Home({allPostsData}) {
         <Hero />
         <About />
         <Computer />
-        <Blog />
+        <Portfolio />
+        <Blogs />
         <Footer />
         {/* <Intro data={allPostsData}/> */}
       </div>
