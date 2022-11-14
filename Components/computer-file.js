@@ -5,7 +5,7 @@ const ComputerFile = (props) => {
   return (
     <Link className="text-center" href={props.url}>
       <a>
-        <div className="w-20 m-auto min-h-20">
+        <div className="m-auto w-14 min-h-20">
           <Image
             src={props.img}
             alt="file icon"
@@ -15,7 +15,7 @@ const ComputerFile = (props) => {
             className=""
           ></Image>
         </div>
-        <p className="text-center text-white">{props.name}</p>
+        <p className="text-sm text-center text-white">{props.name}</p>
       </a>
     </Link>
   )
