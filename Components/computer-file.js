@@ -15,7 +15,7 @@ const ComputerFile = (props) => {
             className=""
           ></Image>
         </div>
-        <p className="text-sm text-center text-white">{props.name}</p>
+        <p className="w-20 text-sm text-center text-white break-all">{props.name}</p>
       </a>
     </Link>
   )
