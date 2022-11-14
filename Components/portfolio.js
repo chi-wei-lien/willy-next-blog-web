@@ -50,6 +50,17 @@ const heartAuth = new PortfolioCardData(
   </ul>
 )
 
+const education = new PortfolioCardData(
+  "/images/portfolio/purdue.png",
+  "Purdue University, West Lafayette, IN",
+  <p>Bachelor of Science in Computer Science, <span className="underline decoration-pink-500 decoration-2">GPA: 4.0, Dean's Honor List</span><br />2021 Aug - 2024 Dec</p>,
+  <ul className="list-disc">
+    <li>
+      Specializing in software engineering
+    </li>
+  </ul>
+)
+
 const Portfolio = () => {
   return (
     <div className="snap-start bg-slate-100" id="portfolio">
@@ -65,8 +76,13 @@ const Portfolio = () => {
             className="underline decoration-2 decoration-pink-500"
           >resume.pdf</a>
         </p>
-        <ProjectCard data={surveyPaper}/>
+        <h1 className="pt-10 pb-5 text-3xl text-center text-slate-600">Education</h1>
+        <ProjectCard data={education}/>
+        <h1 className="pt-10 pb-5 text-3xl text-center text-slate-600">Experience</h1>
         <ProjectCard data={youtube}/>
+        <h1 className="pt-10 pb-5 text-3xl text-center text-slate-600">Projects & Paper</h1>
+        <ProjectCard data={surveyPaper}/>
+        <div className="h-10 col-span-6"></div>
         <ProjectCard data={heartAuth}/>
         <div className="h-20 col-span-6"></div>
       </div>

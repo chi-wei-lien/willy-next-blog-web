@@ -10,8 +10,8 @@ const ProjectCard = (props) => {
   
   return (
     <div>
-      <div className="flex justify-center pt-10">
-        <div className="grid grid-cols-5 gap-4 py-10 bg-white laptop:w-3/5 laptop:px-40 phone:px-5 phone:w-4/5">
+      <div className="flex justify-center">
+        <div className="grid grid-cols-5 py-10 bg-white latop:gap-10 laptop:w-3/5 laptop:px-40 phone:px-5 phone:w-4/5 phone:gap-4">
           <div className="flex justify-end col-span-1">
             <div className="w-32 min-h-32">
               <Image
