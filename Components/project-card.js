@@ -7,13 +7,11 @@ const ProjectCard = (props) => {
   const toggle = () => {
     setOPen(!open);
   }
-
-  console.log(props.data.img)
-
+  
   return (
     <div>
       <div className="flex justify-center pt-10">
-        <div className="grid w-3/5 grid-cols-5 gap-4 py-10 bg-white laptop:px-40 phone:px-0">
+        <div className="grid grid-cols-5 gap-4 py-10 bg-white laptop:w-3/5 laptop:px-40 phone:px-5 phone:w-4/5">
           <div className="flex justify-end col-span-1">
             <div className="w-32 min-h-32">
               <Image

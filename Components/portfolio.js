@@ -55,7 +55,7 @@ const Portfolio = () => {
     <div className="snap-start bg-slate-100" id="portfolio">
       <div className="w-screen min-h-screen">
         <h1 className="py-10 text-5xl text-center underline decoration-indigo-500">Portfolio</h1>
-        <p className="text-center text-slate-700">
+        <p className="text-center text-slate-700 phone:px-5">
           If you are a recruiter, please download the <br /> formal resume from here:{" "}
           <a
             href="/files/2022-11-9 Chi-Wei Lien.pdf"
