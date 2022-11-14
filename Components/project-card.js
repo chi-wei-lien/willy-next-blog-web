@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
             </div>
           </div>
           {open && 
-          <div className="col-span-5">
+          <div className="col-span-5 px-3">
             {props.data.content}
           </div>
           }
