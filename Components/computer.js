@@ -11,7 +11,7 @@ const Computer = () => {
           <div className="absolute z-30 flex items-center justify-center w-full top-10">
             <div className="flex justify-center gap-4 item-center">
               <ComputerFile name="portfolio.png" img="/images/file.png" url="#portfolio"/>
-              <ComputerFile name="blogs.png" img="/images/file.png" url="#blog"/>
+              {/* <ComputerFile name="blogs.png" img="/images/file.png" url="#blog"/> */}
               <ComputerFile name="YouTube" img="/images/youtube.png" url="https://www.youtube.com/@loopholewilson"/>
             </div>
           </div>
