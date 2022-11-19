@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../Components/hero'
 import Computer from '../Components/computer'
-import { getSortedPostsData } from '../lib/posts'
 import About from '../Components/about'
 import Footer from '../Components/footer'
 import Portfolio from '../Components/portfolio'
@@ -21,13 +20,4 @@ export default function Home({allPostsData}) {
       </div>
     </div>
   )
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
