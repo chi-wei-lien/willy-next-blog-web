@@ -1,15 +1,20 @@
-import Post from "../pages/posts/[id]";
+import { allPosts } from 'contentlayer/generated';
 
-const Blogs = () => {
+
+const Blogs = (posts) => {
+  console.log(posts)
   return (
     <div className="snap-start">
       <div className="w-screen h-screen">
         <h1 className="py-10 text-5xl text-center underline decoration-indigo-500">Blogs</h1>
         <div className="">blog</div>
-        <Post />
       </div>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  return { post: { allPosts } }
 }
 
 export default Blogs;

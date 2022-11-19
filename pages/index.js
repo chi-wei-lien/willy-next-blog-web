@@ -5,6 +5,7 @@ import Computer from '../Components/computer'
 import About from '../Components/about'
 import Footer from '../Components/footer'
 import Portfolio from '../Components/portfolio'
+import Blogs from '../Components/blogs'
 
 export default function Home({allPostsData}) {
   return (
@@ -14,7 +15,7 @@ export default function Home({allPostsData}) {
         <About />
         <Computer />
         <Portfolio />
-        {/* <Blogs /> */}
+        <Blogs />
         <Footer />
         {/* <Intro data={allPostsData}/> */}
       </div>
