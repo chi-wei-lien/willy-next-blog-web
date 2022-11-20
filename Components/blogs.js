@@ -11,7 +11,7 @@ const Blogs = ({ posts }) => {
             {posts.map((post) => (
               <div className="flex">
                 <div className="w-3/5">
-                  <Link href="#">{post.title}</Link>
+                  <Link href={post.url}>{post.title}</Link>
                 </div>
                 <h3 className="w-2/5 text-right">{format(parseISO(post.date), 'LLLL d, yyyy')}</h3>
               </div>

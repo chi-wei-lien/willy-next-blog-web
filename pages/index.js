@@ -18,7 +18,6 @@ export default function Home({posts}) {
         <Portfolio />
         <Blogs posts={posts}/>
         <Footer />
-        {/* <Intro data={allPostsData}/> */}
       </div>
     </div>
   )
